@@ -1,7 +1,7 @@
 import './App.css'
 import Footer from './footer'
 import Contacts from './contacts'
-import LandingPage from './Landing-page'
+import LandingPage from './landing-page'
 import Herosection from './herosection'
 import About from './about'
 import Projects from './projects'
