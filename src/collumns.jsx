@@ -2,7 +2,7 @@ export default function Collumns(){
 
     return(
         <>
-        <div className="MC flex flex-row gap-5">
+        <div className="MC flex flex-row gap-5" id="MC">
 
         
             <div className="collumns1 flex flex-col ">

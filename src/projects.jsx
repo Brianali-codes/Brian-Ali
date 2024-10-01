@@ -6,9 +6,9 @@ import IG from './assets/IG.png'
 export default function Projects(){
 
     return(
-        <div id='PROJECTS' className="flex flex-col justify-center items-center h-screen">
+        <div id='PROJECTS' className="flex flex-col justify-center items-center h-fit">
 
-            <p className="ABT text-cyan-400">My Projects</p>
+            <p className="ABT text-cyan-400">My Projects.</p>
             <br /><br />
             <p className='Desc text-black dark:text-white'>Since 2023 i have been perfecting my skills and making user friendly applications that are interactive using my respective tech stack Some of the projects include:</p>
             <br /><br />
