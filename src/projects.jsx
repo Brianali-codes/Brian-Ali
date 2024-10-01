@@ -60,7 +60,7 @@ export default function Projects(){
             <br />
             <br />
             <p className='Desc text-black dark:text-white' >For More Projects Check out my <a href="https://github.com/gamerfunky78" target='_blank'><span className='text-cyan-400'>Github</span></a>.</p>
-            <br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br />
 
         </div>
     )
