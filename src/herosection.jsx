@@ -1,4 +1,4 @@
-import IMG from './assets/image.png';
+import IMG from './assets/image.webp';
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';

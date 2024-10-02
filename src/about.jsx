@@ -1,5 +1,5 @@
-export default function About(){
-    return(
+export default function About() {
+    return (
         <>
             <div id="ABOUT" className="flex flex-col justify-center items-center">
                 <p className="ABT text-cyan-400">About Me</p>
@@ -14,7 +14,7 @@ export default function About(){
                         <br />
                         <p className="text-black dark:text-white">And my Progress :</p>
                         <br />
-                        <img src="https://github-profile-trophy.vercel.app/?username=gamerfunky78&theme=onedark" alt="GitHub Trophy" id="TPS"/>
+                        <img src="https://github-profile-trophy.vercel.app/?username=gamerfunky78&theme=onedark" alt="GitHub Trophy" id="TPS" />
                         <br />
                         <p className="text-black dark:text-white">Other Frameworks Libraries and tools that i use include:</p>
                         <br />
@@ -25,8 +25,6 @@ export default function About(){
                             <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="" />
                             <img src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" alt="" />
                         </div>
-                        
-
 
 
 

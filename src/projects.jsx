@@ -1,7 +1,7 @@
-import CH from './assets/COOKHAVEN.png'
-import GG from './assets/GUAP.png'
-import FW from './assets/FRESCO.png'
-import IG from './assets/IG.png'
+import CH from './assets/COOKHAVEN.webp'
+import GG from './assets/GUAP.webp'
+import FW from './assets/FRESCO.webp'
+import IG from './assets/IG.webp'
 
 export default function Projects(){
 

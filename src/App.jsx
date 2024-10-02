@@ -8,6 +8,8 @@ import Projects from './projects'
 import Ribbon from './ribbon'
 import Collumns from './collumns'
 import Lpmobile from './landingpagemobile'
+import PDFViewer from './roadmap'
+
 
 function App() {
 
@@ -21,6 +23,7 @@ function App() {
       <br/>
       <hr />
       <br /><br /><br /><br /><br />
+      <PDFViewer/>
       <Projects/>
       <br /><br /><br /><br /><br />
       <Ribbon/>
