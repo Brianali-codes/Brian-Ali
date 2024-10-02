@@ -349,7 +349,9 @@ body {
   text-align: center; /* Center the text */
   transition: 0.5s;
 }
-
+.BG{
+  background-color: #f7f7f7;
+}
 @media (max-width: 768px) {
   #HOME {
     flex-direction: column; /* Change to column layout for small screens */
@@ -357,6 +359,7 @@ body {
     text-align: center;
     justify-content: center;
   }
+  
   #IMG {
     width: 50%;
   }
