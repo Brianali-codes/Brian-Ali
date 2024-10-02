@@ -349,11 +349,13 @@ body {
   text-align: center; /* Center the text */
   transition: 0.5s;
 }
+
 @media (max-width: 768px) {
   #HOME {
     flex-direction: column; /* Change to column layout for small screens */
     align-items: center;
     text-align: center;
+    justify-content: center;
   }
   #IMG {
     width: 50%;
@@ -364,9 +366,16 @@ body {
   }
   #PS {
     width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   #PS p {
     font-size: 18px;
+    text-align: center;
+  }
+  .M1{
+    text-align: center;
   }
   .nav{
     display: none;

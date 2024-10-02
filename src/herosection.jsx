@@ -57,7 +57,7 @@ export default function Herosection() {
         <div id='HOME' className="HS flex flex-row justify-center p-10 items-center w-full gap-5">
 
             <motion.div 
-                className="bg-transparent flex flex-col justify-center items-start"
+                className="bg-transparent flex flex-col justify-center items-center"
                 initial={{ opacity: 0, y: 30 }} // Starting position
                 whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                 transition={{ duration: 1 }} // Transition duration
@@ -69,7 +69,7 @@ export default function Herosection() {
             <div className='PS w-3/6' id='PS'>
 
             <motion.div 
-                className="bg-transparent flex flex-col justify-center items-start"
+                className="M1 bg-transparent flex flex-col justify-center items-center"
                 initial={{ opacity: 0, y: 50 }} // Starting position
                 whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                 transition={{ duration: 1.5 }} // Transition duration
@@ -79,7 +79,7 @@ export default function Herosection() {
             </motion.div>
                 
             <motion.div 
-                className="bg-transparent flex flex-col justify-center items-start"
+                className="bg-transparent flex flex-col justify-center items-center"
                 initial={{ opacity: 0, y: 50 }} // Starting position
                 whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                 transition={{ duration: 2 }} // Transition duration
@@ -91,7 +91,7 @@ export default function Herosection() {
                 <br />
 
                 <motion.div 
-                    className="bg-transparent flex flex-col justify-center items-start"
+                    className="bg-transparent flex flex-col justify-center items-center"
                     initial={{ opacity: 0, y: 50 }} // Starting position
                     whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                     transition={{ duration: 2.5 }} // Transition duration
@@ -103,7 +103,7 @@ export default function Herosection() {
                 <br />
 
                 <motion.div 
-                    className="bg-transparent flex flex-col justify-center items-start"
+                    className="bg-transparent flex flex-col justify-center items-center"
                     initial={{ opacity: 0, y: 50 }} // Starting position
                     whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                     transition={{ duration: 3 }} // Transition duration
@@ -115,7 +115,7 @@ export default function Herosection() {
                 <br />
 
                 <motion.div 
-                    className="bg-transparent flex flex-col justify-center items-start"
+                    className="bg-transparent flex flex-col justify-center items-center"
                     initial={{ opacity: 0, y: 50 }} // Starting position
                     whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                     transition={{ duration: 3 }} // Transition duration
