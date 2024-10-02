@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faToggleOff, faToggleOn, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
+
 
 export default function Herosection() {
     const texts = ["Web developer.", 'Front-end Developer.', 'Freelance Developer.'];
@@ -53,16 +55,73 @@ export default function Herosection() {
 
     return (
         <div id='HOME' className="HS flex flex-row justify-center p-10 items-center w-full gap-5">
-            <img src={IMG} alt="Hero-img" id='IMG' />
+
+            <motion.div 
+                className="bg-transparent flex flex-col justify-center items-center"
+                initial={{ opacity: 0, y: 30 }} // Starting position
+                whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                transition={{ duration: 1 }} // Transition duration
+                viewport={{ once: true }} // Animation happens only once when it comes into view
+            >
+                <img src={IMG} alt="Hero-img" id='IMG' />
+            </motion.div>
+            
             <div className='PS w-3/6' id='PS'>
+
+            <motion.div 
+                className="bg-transparent flex flex-col justify-center items-center"
+                initial={{ opacity: 0, y: 50 }} // Starting position
+                whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                transition={{ duration: 1.5 }} // Transition duration
+                viewport={{ once: true }} // Animation happens only once when it comes into view
+            >
                 <p className='text-black dark:text-white'>Hello, I am <span className='text-cyan-300'>Brian Ali </span> and I am a :</p>
+            </motion.div>
+                
+            <motion.div 
+                className="bg-transparent flex flex-col justify-center items-center"
+                initial={{ opacity: 0, y: 50 }} // Starting position
+                whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                transition={{ duration: 2 }} // Transition duration
+                viewport={{ once: true }} // Animation happens only once when it comes into view
+            >
                 <p><span className='text-cyan-300'><span className='text-transparent'>.</span>{displayText}</span></p>
+            </motion.div>
+                
                 <br />
-                <p className='text-black dark:text-white'>I am currently studying BSc in Information Technology in <span className='text-cyan-300'>Mt Kenya University</span>. I am looking forward to partnering with others like me and expanding my knowledge in the programming field.</p>
+
+                <motion.div 
+                    className="bg-transparent flex flex-col justify-center items-center"
+                    initial={{ opacity: 0, y: 50 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 2.5 }} // Transition duration
+                    viewport={{ once: true }} // Animation happens only once when it comes into view
+                >
+                    <p className='text-black dark:text-white'>I am currently studying BSc in Information Technology in <span className='text-cyan-300'>Mt Kenya University</span>. I am looking forward to partnering with others like me and expanding my knowledge in the programming field.</p>
+                </motion.div>
+                
                 <br />
-                <p className='text-black dark:text-white'>Feel Free to contact me on:</p>
+
+                <motion.div 
+                    className="bg-transparent flex flex-col justify-center items-center"
+                    initial={{ opacity: 0, y: 50 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 3 }} // Transition duration
+                    viewport={{ once: true }} // Animation happens only once when it comes into view
+                >
+                    <p className='text-black dark:text-white'>Feel Free to contact me on:</p>
+                </motion.div>
+                
                 <br />
-                <div className="flex flex-row justify-start gap-4" id='Icon-Container'>
+
+                <motion.div 
+                    className="bg-transparent flex flex-col justify-center items-center"
+                    initial={{ opacity: 0, y: 50 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 3 }} // Transition duration
+                    viewport={{ once: true }} // Animation happens only once when it comes into view
+                >
+                    <div className="flex flex-row justify-start gap-4" id='Icon-Container'>
                     <a href="https://www.instagram.com/bryce._.six/" target='_blank'>
                         <FontAwesomeIcon icon={faInstagram} size="2x" className='text-black hover:text-cyan-400 hover:cursor-pointer duration-500 dark:text-white dark:hover:text-cyan-300' />
                     </a>
@@ -75,6 +134,9 @@ export default function Herosection() {
                         <FontAwesomeIcon icon={faEnvelope} size="2x" className='text-black hover:text-cyan-400 hover:cursor-pointer duration-500 dark:text-white dark:hover:text-cyan-300'/>
                     </a>
                 </div>
+
+                </motion.div>
+                
             </div>
 
             <FontAwesomeIcon icon={darkMode ? faToggleOn : faToggleOff} id='Toggler' size='2x' onClick={toggleDarkMode} className='text-black dark:text-white' />

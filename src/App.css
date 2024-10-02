@@ -55,9 +55,6 @@ html{
 }
 .HS{
   height: 80vh;
-  opacity: 0;
-  animation: slideIn 1s ease-in-out forwards;
-  animation-delay: 1s;
   position: relative;
 }
 #IMG{

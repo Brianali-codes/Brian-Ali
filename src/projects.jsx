@@ -136,3 +136,6 @@ export default function Projects(){
 
 
 }
+
+
+// I used Framer-motion Library to make the smooth animations.
