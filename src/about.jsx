@@ -20,27 +20,96 @@ export default function About() {
                     whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                     transition={{ duration: 0.5 }} // Transition duration
                 >
-                    <p className="text-black dark:text-white">
+                    <motion.div
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 0.7 }} // Transition duration
+                    
+                    >
+                        <p className="text-black dark:text-white">
                         As a Coder, I am up to date with the latest technologies and am equipped with the right tech stack for my respective field of work.
+                    
                     </p>
+                    </motion.div>
+                    
                     <br />
-                    <p className="text-black dark:text-white">Some of my most used languages include:</p>
+
+                    <motion.div
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 1.3 }} // Transition duration
+                    
+                    >
+                         <p className="text-black dark:text-white">Some of my most used languages include:</p>
+                    </motion.div>
+                   
                     <br />
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamerfunky78&theme=merko&show_icons=true&hide_border=true&layout=compact" alt="" />
+
+                    <motion.div
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 1.3 }} // Transition duration
+                    
+                    >
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamerfunky78&theme=merko&show_icons=true&hide_border=true&layout=compact" alt="" />
+                    </motion.div>
+
+                    
                     <br />
-                    <p className="text-black dark:text-white">And my Progress:</p>
+
+                    <motion.div
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 1.5 }} // Transition duration
+                    
+                    >
+                        <p className="text-black dark:text-white">And my Progress:</p>
+                    </motion.div>
+                    
                     <br />
-                    <img src="https://github-profile-trophy.vercel.app/?username=gamerfunky78&theme=onedark" alt="GitHub Trophy" id="TPS" />
+
+                    <motion.div
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 1.7 }} // Transition duration
+                    
+                    >
+                        <img src="https://github-profile-trophy.vercel.app/?username=gamerfunky78&theme=onedark" alt="GitHub Trophy" id="TPS" />
+
+                    </motion.div>
+
+                    
                     <br />
+
+
+                    <motion.div
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 2 }} // Transition duration
+                    
+                    >
+
                     <p className="text-black dark:text-white">Other Frameworks, Libraries, and tools that I use include:</p>
+                    </motion.div>
+                    
                     <br />
-                    <div className="flex flex-row gap-3" id="BADGES">
+
+                    <motion.div
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 2 }} // Transition duration
+                    
+                    >
+                        <div className="flex flex-row gap-3" id="BADGES">
                         <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="" />
                         <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="" />
                         <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="" />
                         <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="" />
                         <img src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" alt="" />
                     </div>
+
+                    </motion.div>
+                    
                 </motion.div>
             </div>
         </motion.div>

@@ -13,7 +13,7 @@ function PDFViewer() {
             transition={{ duration: 2 }} // Transition duration
             viewport={{ once: true }} // Animation happens only once when it comes into view
         >
-      <h2 className="Desc text-lg">My developer Roadmap</h2>
+      <h2 className="Desc text-lg text-black dark:text-white">My developer Roadmap</h2>
       <br />
       <img src={pdf} alt="My roadmap" id="RM" />
     </motion.div>
