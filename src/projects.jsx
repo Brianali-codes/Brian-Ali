@@ -2,12 +2,18 @@ import CH from './assets/COOKHAVEN.webp'
 import GG from './assets/GUAP.webp'
 import FW from './assets/FRESCO.webp'
 import IG from './assets/IG.webp'
+import { motion } from 'framer-motion'
 
 export default function Projects(){
 
     return(
-        <div id='PROJECTS' className="flex flex-col justify-center items-center h-fit">
-
+        <motion.div 
+            id='PROJECTS' className="flex flex-col justify-center items-center h-fit"
+            initial={{ opacity: 0, y: 50 }} // Starting position
+            whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+            transition={{ duration: 1 }} // Transition duration
+            viewport={{ once: true }} // Animation happens only once when it comes into view
+        >
             <p className="ABT text-cyan-400">My Projects.</p>
             <br /><br />
             <p className='Desc text-black dark:text-white'>Since 2023 i have been perfecting my skills and making user friendly applications that are interactive using my respective tech stack Some of the projects include:</p>
@@ -62,7 +68,7 @@ export default function Projects(){
             <p className='Desc text-black dark:text-white' >For More Projects Check out my <a href="https://github.com/gamerfunky78" target='_blank'><span className='text-cyan-400'>Github</span></a>.</p>
             <br /><br /><br /><br />
 
-        </div>
+        </motion.div>
     )
 
 

@@ -1,6 +1,14 @@
+import { motion } from "framer-motion";
+
+
 export default function Contacts() {
     return (
-        <section id="Services" className="h-fit bg-white flex flex-col justify-center items-center">
+        <motion.div id="Services" className="h-fit bg-white flex flex-col justify-center items-center"
+            initial={{ opacity: 0, y: 50 }} // Starting position
+            whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+            transition={{ duration: 1 }} // Transition duration
+            viewport={{ once: true }} // Animation happens only once when it comes into view
+        >
             <div className="flex flex-col mt-10 justify-center items-center p-10" id="FormPc">
                 <br />
                 <div className="flex flex-row justify-center items-center">
@@ -85,6 +93,6 @@ export default function Contacts() {
                     </button>
                 </form>
             </div>
-        </section>
+        </motion.div>
     );
 }

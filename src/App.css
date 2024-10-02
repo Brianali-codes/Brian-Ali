@@ -463,14 +463,3 @@ body {
     opacity: 1; /* End visible */
   }
 }
-
-#ABTPROJECTS{
-  animation: slideIn 1s ease-in-out forwards;
-  animation-delay: 2s;
-  opacity: 0;
-}
-.ABT{
-  animation: slideIn 1s ease-in-out forwards;
-  animation-delay: 1.7s;
-  opacity: 0;
-}
