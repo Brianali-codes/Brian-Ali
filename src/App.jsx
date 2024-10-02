@@ -6,9 +6,9 @@ import Herosection from './herosection'
 import About from './about'
 import Projects from './projects'
 import Ribbon from './ribbon'
-import Collumns from './collumns'
 import Lpmobile from './landingpagemobile'
 import PDFViewer from './roadmap'
+import Progress from './progress'
 
 
 function App() {
@@ -24,14 +24,15 @@ function App() {
       <hr />
       <br /><br /><br /><br /><br />
       <PDFViewer/>
+      <br /><br />
       <Projects/>
-      <br /><br /><br /><br /><br />
-      <Ribbon/>
+      <br /><br /><br /><br />
+      <Progress/>
       <br />
       <Contacts/>
       <Footer/>
-      <Collumns/>
       <Lpmobile/>
+      <Ribbon/>
     </>
   )
 }

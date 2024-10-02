@@ -63,7 +63,7 @@ export default function Herosection() {
                 transition={{ duration: 1 }} // Transition duration
                 viewport={{ once: true }} // Animation happens only once when it comes into view
             >
-                <img src={IMG} alt="Hero-img" id='IMG' />
+                <img src={IMG} alt="Hero-img" id='IMG' className='border-black dark:border-white' />
             </motion.div>
             
             <div className='PS w-3/6' id='PS'>
@@ -98,6 +98,18 @@ export default function Herosection() {
                     viewport={{ once: true }} // Animation happens only once when it comes into view
                 >
                     <p className='text-black dark:text-white'>I am currently studying BSc in Information Technology in <span className='text-cyan-300'>Mt Kenya University</span>. I am looking forward to partnering with others like me and expanding my knowledge in the programming field.</p>
+                </motion.div>
+                
+                <br />
+
+                <motion.div 
+                    className="bg-transparent flex flex-col justify-center items-center"
+                    initial={{ opacity: 0, y: 50 }} // Starting position
+                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 3.5 }} // Transition duration
+                    viewport={{ once: true}} // Animation happens only once when it comes into view
+                >
+                    <p className='text-black dark:text-white text-center'>My Hobbies are <span className='text-cyan-400'>Casual Gaming, Watching Movies and VideoGame Hunting</span>.</p>
                 </motion.div>
                 
                 <br />
@@ -144,3 +156,6 @@ export default function Herosection() {
         </div>
     );
 }
+
+
+
