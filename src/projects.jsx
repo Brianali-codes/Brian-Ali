@@ -7,20 +7,25 @@ import { motion } from 'framer-motion'
 export default function Projects(){
 
     return(
-        <motion.div 
+        <div 
             id='PROJECTS' className="flex flex-col justify-center items-center h-fit"
-            initial={{ opacity: 0, y: 50 }} // Starting position
-            whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-            transition={{ duration: 1 }} // Transition duration
-            viewport={{ once: true }} // Animation happens only once when it comes into view
-        >
-            <p className="ABT text-cyan-400">My Projects.</p>
+            >
+            
+            <motion.p 
+                initial={{ opacity: 0, y: 50 }} // Starting position
+                whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                transition={{ duration: 1 }} // Transition duration
+                viewport={{ once: true }} // Animation happens only once when it comes into view
+            >
+                <p className="ABT text-cyan-400">My Projects.</p>
+            </motion.p>
+            
             <br /><br />
 
             <motion.div 
                 initial={{ opacity: 0, y: 50 }} // Starting position
                 whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                transition={{ duration: 1.5 }} // Transition duration
+                transition={{ duration: 1.1 }} // Transition duration
                 viewport={{ once: true }} // Animation happens only once when it comes into view
             >
 
@@ -34,7 +39,7 @@ export default function Projects(){
                     <motion.div 
                         initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                        transition={{ duration: 1.6 }} // Transition duration
+                        transition={{ duration: 1.2 }} // Transition duration
                         viewport={{ once: true }} // Animation happens only once when it comes into view
                     >
                             <div class="project">
@@ -56,7 +61,7 @@ export default function Projects(){
                     <motion.div 
                         initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                        transition={{ duration: 1.9 }} // Transition duration
+                        transition={{ duration: 1 }} // Transition duration
                         viewport={{ once: true }} // Animation happens only once when it comes into view
                     >
                             <div class="project">
@@ -76,7 +81,7 @@ export default function Projects(){
                     <motion.div 
                         initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                        transition={{ duration: 2.3 }} // Transition duration
+                        transition={{ duration: 1 }} // Transition duration
                         viewport={{ once: true }} // Animation happens only once when it comes into view
                     >
                              <div class="project">
@@ -96,7 +101,7 @@ export default function Projects(){
                     <motion.div 
                         initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                        transition={{ duration: 2.3 }} // Transition duration
+                        transition={{ duration: 1 }} // Transition duration
                         viewport={{ once: true }} // Animation happens only once when it comes into view
                     >
                         <div class="project">
@@ -123,7 +128,7 @@ export default function Projects(){
             
             <br /><br />
 
-        </motion.div>
+        </div>
     )
 
 

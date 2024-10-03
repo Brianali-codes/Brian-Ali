@@ -60,7 +60,11 @@ html{
 #IMG{
     scale: 0.9;
     border-radius: 500px;
-    animation: levitate 3s infinite;
+    animation: levitate 2s infinite;
+    border: 3px solid cyan; /* Cyan border */
+    box-shadow: 0 0 30px cyan; /* Glowing effect */
+    padding: 3px;
+       
 }
 @keyframes levitate{
     0%{transform: translateY(0px);}
