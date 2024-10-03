@@ -54,7 +54,7 @@ html{
   animation-delay: 0.5s;
 }
 .HS{
-  height: 80vh;
+  height: 100vh;
   position: relative;
 }
 body::-webkit-scrollbar {
