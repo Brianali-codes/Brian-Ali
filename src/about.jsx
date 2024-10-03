@@ -19,11 +19,13 @@ export default function About() {
                     initial={{ opacity: 0, y: 20 }} // Starting position
                     whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                     transition={{ duration: 0.5 }} // Transition duration
+                    viewport={{ once: true }}
                 >
                     <motion.div
                     initial={{ opacity: 0, y: 20 }} // Starting position
                     whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                     transition={{ duration: 0.6 }} // Transition duration
+                    viewport={{ once: true }}
                     
                     >
                         <p className="text-black dark:text-white">
@@ -35,9 +37,10 @@ export default function About() {
                     <br />
 
                     <motion.div
-                    initial={{ opacity: 0, y: 20 }} // Starting position
-                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                    transition={{ duration: 0.7 }} // Transition duration
+                        initial={{ opacity: 0, y: 20 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 0.7 }} // Transition duration
+                        viewport={{ once: true }}
                     
                     >
                          <p className="text-black dark:text-white">Some of my most used languages include:</p>
@@ -46,9 +49,10 @@ export default function About() {
                     <br />
 
                     <motion.div
-                    initial={{ opacity: 0, y: 20 }} // Starting position
-                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                    transition={{ duration: 0.8 }} // Transition duration
+                        initial={{ opacity: 0, y: 20 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 0.8 }} // Transition duration
+                        viewport={{ once: true }}
                     
                     >
                             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamerfunky78&theme=merko&show_icons=true&hide_border=true&layout=compact" alt="" />
@@ -58,10 +62,11 @@ export default function About() {
                     <br />
 
                     <motion.div
-                    initial={{ opacity: 0, y: 20 }} // Starting position
-                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                    transition={{ duration: 0.9 }} // Transition duration
-                    
+                        initial={{ opacity: 0, y: 20 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 0.9 }} // Transition duration
+                        viewport={{ once: true }}
+                        
                     >
                         <p className="text-black dark:text-white">And my Progress:</p>
                     </motion.div>
@@ -69,9 +74,10 @@ export default function About() {
                     <br />
 
                     <motion.div
-                    initial={{ opacity: 0, y: 20 }} // Starting position
-                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                    transition={{ duration: 1 }} // Transition duration
+                        initial={{ opacity: 0, y: 20 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 1 }} // Transition duration
+                        viewport={{ once: true }}
                     
                     >
                         <img src="https://github-profile-trophy.vercel.app/?username=gamerfunky78&theme=onedark" alt="GitHub Trophy" id="TPS" />
@@ -83,9 +89,10 @@ export default function About() {
 
 
                     <motion.div
-                    initial={{ opacity: 0, y: 20 }} // Starting position
-                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                    transition={{ duration: 1.1 }} // Transition duration
+                        initial={{ opacity: 0, y: 20 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 1.1 }} // Transition duration
+                        viewport={{ once: true }}
                     
                     >
 
@@ -95,9 +102,10 @@ export default function About() {
                     <br />
 
                     <motion.div
-                    initial={{ opacity: 0, y: 20 }} // Starting position
-                    whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                    transition={{ duration: 1.2 }} // Transition duration
+                        initial={{ opacity: 0, y: 20 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 1.2 }} // Transition duration
+                        viewport={{ once: true }}
                     
                     >
                         <div className="flex flex-row gap-3" id="BADGES">
