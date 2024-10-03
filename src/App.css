@@ -49,7 +49,7 @@ html{
   position: fixed;
   top: 0; /* This will place it at the top on larger screens */
   z-index: 999;
-  opacity: 1; /* Make it visible initially */
+  opacity: 1; /* Makes it visible initially */
   animation: slideInTop 1s ease-in-out forwards;
   animation-delay: 0.5s;
 }
@@ -58,14 +58,14 @@ html{
   position: relative;
 }
 body::-webkit-scrollbar {
-  display: none; /* Hide scrollbars in WebKit browsers (Chrome, Safari, etc.) */
+  display: none; 
 }
 #IMG{
     scale: 0.9;
     border-radius: 500px;
     animation: levitate 2s infinite;
-    border: 3px solid cyan; /* Cyan border */
-    box-shadow: 0 0 30px cyan; /* Glowing effect */
+    border: 3px solid cyan; 
+    box-shadow: 0 0 30px cyan;
     padding: 3px;
        
 }
