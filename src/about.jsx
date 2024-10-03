@@ -146,7 +146,7 @@ export default function About() {
                     </motion.div>
                     <br />
                     <motion.div
-                        initial={{ opacity: 0, y: 70 }} // Starting position
+                        initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                         transition={{ duration: 0.9 }} // Transition duration
                         viewport={{ once: true}} // Animation happens only once when it comes into view
@@ -164,7 +164,7 @@ export default function About() {
                     </motion.div>
                     <motion.div 
                         className="bg-transparent flex flex-col justify-center items-center"
-                        initial={{ opacity: 0, y: 70 }} // Starting position
+                        initial={{ opacity: 0, y: 10 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                         transition={{ duration: 0.9 }} // Transition duration
                         viewport={{ once: true}} // Animation happens only once when it comes into view
