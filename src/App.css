@@ -67,11 +67,11 @@ body::-webkit-scrollbar {
     border: 3px solid cyan; 
     box-shadow: 0 0 30px cyan;
     padding: 3px;
-       
+    
 }
 @keyframes levitate{
     0%{transform: translateY(0px);}
-    50%{transform: translateY(10px);}
+    50%{transform: translateY(-30px);}
     100%{transform: translateY(0px);}
 
 }
