@@ -57,6 +57,9 @@ html{
   height: 80vh;
   position: relative;
 }
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbars in WebKit browsers (Chrome, Safari, etc.) */
+}
 #IMG{
     scale: 0.9;
     border-radius: 500px;
