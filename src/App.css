@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
   column-gap: 20px;
   padding: 50px;
   gap: 50px;
-  height: 100vh;
+  height: fit-content;
 }
 
 
@@ -361,6 +361,9 @@ body {
 }
 .BG{
   background-color: #f7f7f7;
+}
+#PROJECTS{
+  height: fit-content;
 }
 @media (max-width: 768px) {
   #HOME {

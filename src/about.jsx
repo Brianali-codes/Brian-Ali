@@ -53,7 +53,6 @@ export default function About() {
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                         transition={{ duration: 0.8 }} // Transition duration
                         viewport={{ once: true }}
-                    
                     >
                             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamerfunky78&theme=merko&show_icons=true&hide_border=true&layout=compact" alt="" />
                     </motion.div>
@@ -78,7 +77,6 @@ export default function About() {
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                         transition={{ duration: 1 }} // Transition duration
                         viewport={{ once: true }}
-                    
                     >
                         <img src="https://github-profile-trophy.vercel.app/?username=gamerfunky78&theme=onedark" alt="GitHub Trophy" id="TPS" />
 

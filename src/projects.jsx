@@ -2,13 +2,16 @@ import CH from './assets/COOKHAVEN.webp'
 import GG from './assets/GUAP.webp'
 import FW from './assets/FRESCO.webp'
 import IG from './assets/IG.webp'
+import MS from './assets/MS.png'
 import { motion } from 'framer-motion'
+
+
 
 export default function Projects(){
 
     return(
         <div 
-            id='PROJECTS' className="flex flex-col justify-center items-center h-fit"
+            id='PROJECTS' className="flex flex-col justify-center items-center"
             >
             
             <motion.p 
@@ -107,6 +110,25 @@ export default function Projects(){
                         <div class="project">
 
                             <img src={IG} alt="Project Image"/>
+
+                            <div class="project-info flex flex-col">
+                                <p className='Desc'>This is a website that allows you to Generate Memes From Open source APis. </p>
+                                <br /><br />
+                                <a href="https://ig3s.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
+                            </div>
+                        </div>
+
+                    </motion.div>
+
+                    <motion.div 
+                        initial={{ opacity: 0, y: 50 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 1 }} // Transition duration
+                        viewport={{ once: true }} // Animation happens only once when it comes into view
+                    >
+                        <div class="project">
+
+                            <img src={MS} alt="Project Image"/>
 
                             <div class="project-info flex flex-col">
                                 <p className='Desc'>This is a website that allows you to download mp4 files from instagram and save them locally, it also uses an API. </p>
