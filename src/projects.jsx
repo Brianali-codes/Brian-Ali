@@ -112,7 +112,7 @@ export default function Projects(){
                             <img src={IG} alt="Project Image"/>
 
                             <div class="project-info flex flex-col">
-                                <p className='Desc'>This is a website that allows you to Generate Memes From Open source APis. </p>
+                                <p className='Desc'>This is a website that allows you to download mp4 files from instagram and save them locally, it also uses an API. </p>
                                 <br /><br />
                                 <a href="https://ig3s.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                             </div>
@@ -131,7 +131,7 @@ export default function Projects(){
                             <img src={MS} alt="Project Image"/>
 
                             <div class="project-info flex flex-col">
-                                <p className='Desc'>This is a website that allows you to download mp4 files from instagram and save them locally, it also uses an API. </p>
+                                <p className='Desc'>This is a website that allows you to Generate Memes From Open source APis. </p>
                                 <br /><br />
                                 <a href="https://ig3s.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                             </div>
