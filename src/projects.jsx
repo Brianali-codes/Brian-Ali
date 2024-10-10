@@ -2,7 +2,7 @@ import CH from './assets/COOKHAVEN.webp'
 import GG from './assets/GUAP.webp'
 import FW from './assets/FRESCO.webp'
 import IG from './assets/IG.webp'
-import MS from './assets/MS.png'
+import MS from './assets/MS.webp'
 import { motion } from 'framer-motion'
 
 
