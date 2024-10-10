@@ -133,7 +133,7 @@ export default function Projects(){
                             <div class="project-info flex flex-col">
                                 <p className='Desc'>This is a website that allows you to Generate Memes From Open source APis. </p>
                                 <br /><br />
-                                <a href="https://ig3s.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
+                                <a href="https://memesplat.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                             </div>
                         </div>
 
