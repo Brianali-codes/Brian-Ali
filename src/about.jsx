@@ -54,7 +54,7 @@ export default function About() {
                         transition={{ duration: 0.8 }} // Transition duration
                         viewport={{ once: true }}
                     >
-                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gamerfunky78&theme=merko&show_icons=true&hide_border=true&layout=compact" alt="" />
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brianali-codes&theme=merko&show_icons=true&hide_border=true&layout=compact" alt="" />
                     </motion.div>
 
                     
@@ -78,7 +78,7 @@ export default function About() {
                         transition={{ duration: 1 }} // Transition duration
                         viewport={{ once: true }}
                     >
-                        <img src="https://github-profile-trophy.vercel.app/?username=gamerfunky78&theme=onedark" alt="GitHub Trophy" id="TPS" />
+                        <img src="https://github-profile-trophy.vercel.app/?username=Brianali-codes&theme=onedark" alt="GitHub Trophy" id="TPS" />
 
                     </motion.div>
 
@@ -158,7 +158,7 @@ export default function About() {
                         >
                             Iam also Consistent as i aspire to make better applications here are my stats:
                         </motion.p>
-                        <img src="https://github-readme-stats.vercel.app/api?username=gamerfunky78&theme=merko&show_icons=true&hide_border=true&count_private=true" alt="" />
+                        <img src="https://github-readme-stats.vercel.app/api?username=Brianali-codes&theme=merko&show_icons=true&hide_border=true&count_private=true" alt="" />
                     </motion.div>
                     <motion.div 
                         className="bg-transparent flex flex-col justify-center items-center"
