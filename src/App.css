@@ -144,6 +144,7 @@ body::-webkit-scrollbar {
   position: relative;
   display: inline-block;
   transition: transform 0.3s ease-in-out;
+  width: 90%;
 }
 
 .project img {
