@@ -123,11 +123,11 @@ export default function Herosection() {
                     viewport={{ once: true }} // Animation happens only once when it comes into view
                 >
                     <div className="flex flex-row justify-start gap-4" id='Icon-Container'>
-                    <a href="https://www.instagram.com/bryce._.six/" target='_blank'>
+                    <a href="https://www.instagram.com/bryce_codes/" target='_blank'>
                         <FontAwesomeIcon icon={faInstagram} size="2x" className='text-black hover:text-cyan-400 hover:cursor-pointer duration-500 dark:text-white dark:hover:text-cyan-300' />
                     </a>
 
-                    <a href="https://github.com/gamerfunky78" target='_blank'>
+                    <a href="https://github.com/brianali-codes" target='_blank'>
                         <FontAwesomeIcon icon={faGithub} size="2x" className='text-black hover:text-cyan-400 hover:cursor-pointer duration-500 dark:text-white dark:hover:text-cyan-300' />
                     </a>
 

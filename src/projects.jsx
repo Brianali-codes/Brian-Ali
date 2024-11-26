@@ -42,23 +42,21 @@ export default function Projects(){
                     <motion.div 
                         initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                        transition={{ duration: 1.2 }} // Transition duration
+                        transition={{ duration: 1 }} // Transition duration
                         viewport={{ once: true }} // Animation happens only once when it comes into view
                     >
-                            <div class="project">
+                        <div class="project">
 
-                                <img src={CH} alt="Project Image"/>
+                            <img src={QTC} alt="Project Image"/>
 
-                                <div class="project-info flex flex-col">
-                                    <p className='Desc'>This is A recipe web-app, Searches For recipes and results are rendered dynamically using the power of React.js.</p>
-                                    <br /><br />        
-                                    <a href="https://cookhaven.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
-                                </div>
+                            <div class="project-info flex flex-col">
+                                <p className='Desc'>I worked as the Front-end Developer For the Quick-Tech College Website. </p>
+                                <br /><br />
+                                <a href="https://quicktechcollege.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                             </div>
+                        </div>
 
                     </motion.div>
-
-
 
 
                     <motion.div 
@@ -123,6 +121,25 @@ export default function Projects(){
                     <motion.div 
                         initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 1.2 }} // Transition duration
+                        viewport={{ once: true }} // Animation happens only once when it comes into view
+                    >
+                            <div class="project">
+
+                                <img src={CH} alt="Project Image"/>
+
+                                <div class="project-info flex flex-col">
+                                    <p className='Desc'>This is A recipe web-app, Searches For recipes and results are rendered dynamically using the power of React.js.</p>
+                                    <br /><br />        
+                                    <a href="https://cookhaven.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
+                                </div>
+                            </div>
+
+                    </motion.div>
+
+                    <motion.div 
+                        initial={{ opacity: 0, y: 50 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
                         transition={{ duration: 1 }} // Transition duration
                         viewport={{ once: true }} // Animation happens only once when it comes into view
                     >
@@ -139,24 +156,7 @@ export default function Projects(){
 
                     </motion.div>
 
-                    <motion.div 
-                        initial={{ opacity: 0, y: 50 }} // Starting position
-                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
-                        transition={{ duration: 1 }} // Transition duration
-                        viewport={{ once: true }} // Animation happens only once when it comes into view
-                    >
-                        <div class="project">
-
-                            <img src={QTC} alt="Project Image"/>
-
-                            <div class="project-info flex flex-col">
-                                <p className='Desc'>I worked as the Front-end Developer For the Quick-Tech College Website. </p>
-                                <br /><br />
-                                <a href="https:/quicktechcollege.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
-                            </div>
-                        </div>
-
-                    </motion.div>
+                    
                     
                     
 
