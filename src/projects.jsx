@@ -5,6 +5,7 @@ import IG from './assets/IG.webp'
 import MS from './assets/MS.webp'
 import { motion } from 'framer-motion'
 import QTC from './assets/QUICK.webp'
+import bgz from './assets/BGZAP.webp'
 
 
 export default function Projects(){
@@ -151,6 +152,25 @@ export default function Projects(){
                                 <p className='Desc'>This is a website that allows you to Generate Memes From Open source APis. </p>
                                 <br /><br />
                                 <a href="https://memesplat.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
+                            </div>
+                        </div>
+
+                    </motion.div>
+
+                    <motion.div 
+                        initial={{ opacity: 0, y: 50 }} // Starting position
+                        whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                        transition={{ duration: 1 }} // Transition duration
+                        viewport={{ once: true }} // Animation happens only once when it comes into view
+                    >
+                        <div class="project">
+
+                            <img src={bgz} alt="Project Image"/>
+
+                            <div class="project-info flex flex-col">
+                                <p className='Desc'>This is a website that allows you to Remove backgrounds From images . </p>
+                                <br /><br />
+                                <a href="https://bgzap.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                             </div>
                         </div>
 
