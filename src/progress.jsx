@@ -11,7 +11,7 @@ export default function Progress(){
                 transition={{ duration: 1 }} // Transition duration
                 viewport={{ once: true }} // Animation happens only once when it comes into view
             >
-                    <p className='Desc text-black dark:text-white' >For More Projects Check out my <a href="https://github.com/gamerfunky78" target='_blank'><span className='text-cyan-400'>Github</span></a>.</p>
+                    <p className='Desc text-black dark:text-white' >For More Projects Check out my <a href="https://github.com/brianali-codes" target='_blank'><span className='text-cyan-400'>Github</span></a>.</p>
         </motion.div>
     )
 
