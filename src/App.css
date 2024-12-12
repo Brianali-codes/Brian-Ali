@@ -188,12 +188,14 @@ body::-webkit-scrollbar {
   opacity: 1; /* Show text on hover */
 }
 #RM{
-  width: 70%;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px 2px gray;
+  width: 90%;
 }
 .Desc{
   font-family: Kanit, 'Courier New', Courier, monospace;
+}
+.Desc2{
+  font-family: Kanit, 'Courier New', Courier, monospace;
+  text-shadow: 3px 3px black;
 }
 .GO::after {
   content: ""; /* Generates an empty string */
@@ -372,6 +374,10 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+  }
+  .Desc2{
+    font-family: Kanit, 'Courier New', Courier, monospace;
+    font-size: 14px;
   }
   
   #IMG {
