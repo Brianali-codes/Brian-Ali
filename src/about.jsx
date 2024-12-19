@@ -4,13 +4,16 @@ export default function About() {
     return (
         <motion.div
             id="ABOUT"
-            className="flex flex-col justify-center items-center"
-            initial={{ opacity: 0, y: 20 }} // Starting position
-            whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+            className="flex flex-col justify-center items-center p-5 bg-gray-300 dark:bg-black m-7 rounded-2xl"
+            initial={{ opacity: 0, x: 500 }} // Starting position
+            whileInView={{ opacity: 1, x: 0 }} // Ending position when in view
             transition={{ duration: 1 }} // Transition duration
             viewport={{ once: true }} // Animation happens only once when it comes into view
         >
-            <p className="ABT text-cyan-400">About Me</p>
+            <br /><br />
+            <p className="ABT text-cyan-400 Desc">About Me</p>
+            
+            <br />
             <br />
             <div className="flex flex-row">
                 <motion.div
@@ -158,6 +161,7 @@ export default function About() {
                         >
                             Iam also Consistent as i aspire to make better applications here are my stats:
                         </motion.p>
+                        <br />
                         <img src="https://github-readme-stats.vercel.app/api?username=Brianali-codes&theme=merko&show_icons=true&hide_border=true&count_private=true" alt="" />
                     </motion.div>
                     <motion.div 
@@ -167,9 +171,10 @@ export default function About() {
                         transition={{ duration: 0.9 }} // Transition duration
                         viewport={{ once: true}} // Animation happens only once when it comes into view
                     >
+                        <br />
                         <p className='text-black dark:text-white text-center'>My Hobbies are <span className='text-cyan-400'>Casual Gaming, Watching Movies and VideoGame Hunting</span>.</p>
                     </motion.div>
-
+                    <br />
                 </motion.div>
             </div>
         </motion.div>

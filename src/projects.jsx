@@ -12,8 +12,12 @@ import OT from './assets/OT.webp'
 export default function Projects() {
 
     return (
-        <div
+        <motion.div
             id='PROJECTS' className="flex flex-col justify-center items-center"
+            initial={{ opacity: 0, X: -500 }} // Starting position
+            whileInView={{ opacity: 1, X: 0 }} // Ending position when in view
+            transition={{ duration: 3 }} // Transition duration
+            viewport={{ once: true }} // Animation happens only once when it comes into view
         >
 
             <motion.p
@@ -22,7 +26,7 @@ export default function Projects() {
                 transition={{ duration: 1 }} // Transition duration
                 viewport={{ once: true }} // Animation happens only once when it comes into view
             >
-                <p className="ABT text-cyan-400">My Projects.</p>
+                <p className="ABT text-cyan-400 Desc">My Projects.</p>
             </motion.p>
 
             <br /><br />
@@ -226,7 +230,7 @@ export default function Projects() {
 
             <br /><br />
 
-        </div>
+        </motion.div>
     )
 
 

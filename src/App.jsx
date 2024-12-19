@@ -7,7 +7,6 @@ import About from './about'
 import Projects from './projects'
 import Ribbon from './ribbon'
 import Lpmobile from './landingpagemobile'
-import PDFViewer from './roadmap'
 import Progress from './progress'
 
 
@@ -23,7 +22,6 @@ function App() {
       <br/>
       <hr />
       <br /><br /><br /><br /><br />
-      <PDFViewer/>
       <br /><br />
       <Projects/>
       <br /><br /><br /><br />

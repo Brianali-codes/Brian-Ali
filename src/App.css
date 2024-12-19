@@ -368,6 +368,9 @@ body {
 #PROJECTS{
   height: fit-content;
 }
+#ABOUT {
+ 
+}
 @media (max-width: 768px) {
   #HOME {
     flex-direction: column; /* Change to column layout for small screens */
@@ -425,6 +428,7 @@ body {
   #ABOUT {
     align-items: center;
     text-align: center;
+    
   }
   .HS2 {
     display: flex;
