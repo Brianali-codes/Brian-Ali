@@ -79,11 +79,11 @@ export default function Projects() {
                         <img src={GG} alt="Project Image" />
 
                         <div class="project-info flex flex-col">
-                            <p className='text-center Desc2'>Guap Giveaways</p>
+                            <p className='text-center Desc2'>Frapp</p>
                             <br />
                             <p className='Desc2'>As a video game enthusiast i keep my eye on new video game giveaways, this website uses an API that does exactly that.</p>
                             <br />
-                            <a href="https://guapgiveaways.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
+                            <a href="https://frapp.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
 
