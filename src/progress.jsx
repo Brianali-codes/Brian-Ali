@@ -1,9 +1,19 @@
 import { motion } from "framer-motion"
-
+import Experience from "./experience"
 
 
 export default function Progress(){
-    return(
+    return(<>
+        <motion.div 
+                    id='PROJECTS' className="flex flex-col justify-center items-center h-fit"
+                    initial={{ opacity: 0, y: 20 }} // Starting position
+                whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
+                transition={{ duration: 1 }} // Transition duration
+                viewport={{ once: true }} // Animation happens only once when it comes into view
+            >
+                    <p className='Desc text-black dark:text-white' >For More Projects Check out my <a href="https://github.com/brianali-codes" target='_blank'><span className='text-cyan-400'>Github</span></a>.</p>
+        </motion.div>
+        <br />
         <motion.div 
                 id='PROJECTS' className="flex flex-col justify-center items-center h-fit"
                 initial={{ opacity: 0, y: 20 }} // Starting position
@@ -11,8 +21,18 @@ export default function Progress(){
                 transition={{ duration: 1 }} // Transition duration
                 viewport={{ once: true }} // Animation happens only once when it comes into view
             >
-                    <p className='Desc text-black dark:text-white' >For More Projects Check out my <a href="https://github.com/brianali-codes" target='_blank'><span className='text-cyan-400'>Github</span></a>.</p>
+                    <p className='Desc text-black dark:text-white' >Work Experience.</p>
+                    <Experience/>
         </motion.div>
+    
+    </>
+        
+
+
+
+
+
+
     )
 
 

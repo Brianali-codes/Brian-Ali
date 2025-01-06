@@ -7,9 +7,15 @@ import { motion } from 'framer-motion'
 import QTC from './assets/QUICK.webp'
 import bgz from './assets/BGZAP.webp'
 import OT from './assets/OT.webp'
+import { useState } from 'react'
 
 
 export default function Projects() {
+
+
+    const [url, setUrl] = useState('https://quicktechcollege.netlify.app')
+    const [lineColor, setLineColor] = useState('CyanPulse')
+
 
     return (
         <motion.div
@@ -225,10 +231,44 @@ export default function Projects() {
 
             <br />
             <br />
+            <div>
+                
+            </div>
 
-
+            <div className='p-7 Response'>
+                <p className='Desc'>As a front-end developer One of the most important things is often the Responsiveness of the website, Using the Device below feel free to explore all of my websites responsiveness.</p>
+            </div>
+           
 
             <br /><br />
+
+            <div className="Phone-body">
+                <div className="phone-frame">
+                    <div className="notch"></div>
+                    <iframe src={url} width="100%" height="100%" title="Phone Webview"></iframe>
+                </div>
+                <div className="line line1"></div>
+                <button className="button button1" onClick={() => setUrl('https://quicktechcollege.netlify.app')}>Quick Tech</button>
+
+                <div className="line line2"></div>
+                <button className="button button2" onClick={() => setUrl('https://frescowallpapers.netlify.app')}>Fresco Wallpapers</button>
+
+                <div className="line line3"></div>
+                <button className="button button3" onClick={() => setUrl('https://memesplat.netlify.app')}>Memesplat memes</button>
+
+                <div className="line line4"></div>
+                <button className="button button4" onClick={() => setUrl('https://frapp.netlify.app')}>frapp giveaways</button>
+
+                <div className="line line5"></div>
+                <button className="button button5" onClick={() => setUrl('https://cookhaven.netlify.app')}>Cookhaven Recipes</button>
+
+                <div className="line line6"></div>
+                <button className="button button6" onClick={() => setUrl('https://otakupulsenews.netlify.app')}>Otaku Pulse</button>
+            </div>
+
+            
+            <br />
+            <br />
 
         </motion.div>
     )

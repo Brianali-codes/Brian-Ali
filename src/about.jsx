@@ -5,7 +5,7 @@ export default function About() {
         <motion.div
             id="ABOUT"
             className="flex flex-col justify-center items-center p-5 bg-gray-300 dark:bg-black m-7 rounded-2xl"
-            initial={{ opacity: 0, x: 500 }} // Starting position
+            initial={{ opacity: 0, x: 0 }} // Starting position
             whileInView={{ opacity: 1, x: 0 }} // Ending position when in view
             transition={{ duration: 1 }} // Transition duration
             viewport={{ once: true }} // Animation happens only once when it comes into view
