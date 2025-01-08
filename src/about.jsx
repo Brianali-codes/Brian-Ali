@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
+import Experience from './experience';
 
 export default function About() {
     return (
         <motion.div
             id="ABOUT"
-            className="flex flex-col justify-center items-center p-5 bg-gray-300 dark:bg-black m-7 rounded-2xl"
+            className="flex flex-col justify-center items-center p-5 dark:bg-black m-7 rounded-2xl"
             initial={{ opacity: 0, x: 0 }} // Starting position
             whileInView={{ opacity: 1, x: 0 }} // Ending position when in view
             transition={{ duration: 1 }} // Transition duration
@@ -172,6 +173,11 @@ export default function About() {
                         viewport={{ once: true}} // Animation happens only once when it comes into view
                     >
                         <br />
+
+                        <Experience/>
+
+                        <br />
+
                         <p className='text-black dark:text-white text-center'>My Hobbies are <span className='text-cyan-400'>Casual Gaming, Watching Movies and VideoGame Hunting</span>.</p>
                     </motion.div>
                     <br />
