@@ -12,7 +12,7 @@ export default function Contacts() {
             <div className="flex flex-col mt-10 justify-center items-center p-10" id="FormPc">
                 <br />
                 <div className="flex flex-row justify-center items-center">
-                    <p className="paragraph text-3xl">
+                    <p className="paragraph text-3xl Desc">
                         CONTACT <span className="text-cyan-400 text-3xl">ME</span>
                     </p>
                 </div>
@@ -20,7 +20,7 @@ export default function Contacts() {
                 <form
                     action="https://formsubmit.co/brianali427@gmail.com"
                     method="POST"
-                    className="flex flex-col gap-4"
+                    className="flex flex-col gap-4 Desc"
                     id="form-main"
                 >
                     <div className="flex flex-row gap-5" id="forms">
@@ -29,14 +29,14 @@ export default function Contacts() {
                             type="text"
                             name="name"
                             required
-                            className="h-28 w-72 border-solid border-2 border-black rounded-xl p-1"
+                            className="h-28 w-72 border-solid border-2 border-black rounded-xl p-1 Desc"
                         />
                         <input
                             placeholder="Email..."
                             type="email"
                             name="email"
                             required
-                            className="h-28 w-72 border-solid border-2 border-black rounded-xl p-1"
+                            className="h-28 w-72 border-solid border-2 border-black rounded-xl p-1 Desc"
                         />
                     </div>
                     <div className="flex flex-row gap-5" id="form2">
@@ -45,11 +45,11 @@ export default function Contacts() {
                             type="text"
                             name="msg"
                             required
-                            className="h-36 w-96 border-solid border-2 border-black rounded-xl p-1"
+                            className="h-36 w-96 border-solid border-2 border-black rounded-xl p-1 Desc"
                         />
                         <button
                             type="submit"
-                            className="h-36 w-48 border-solid border-2 border-black rounded-xl hover:bg-slate-400"
+                            className="Desc h-36 w-48 border-solid border-2 border-black rounded-xl hover:bg-slate-400"
                         >
                             Send
                         </button>

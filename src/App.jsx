@@ -5,7 +5,6 @@ import LandingPage from './landing-page'
 import Herosection from './herosection'
 import About from './about'
 import Projects from './projects'
-import Ribbon from './ribbon'
 import Lpmobile from './landingpagemobile'
 import Progress from './progress'
 
@@ -30,7 +29,6 @@ function App() {
       <Contacts/>
       <Footer/>
       <Lpmobile/>
-      <Ribbon/>
     </>
   )
 }
