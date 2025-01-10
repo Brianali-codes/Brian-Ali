@@ -47,12 +47,12 @@ html{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   border: solid 2px rgb(155, 155, 155);
   position: fixed;
-  top: 0; /* This will place it at the top on larger screens */
+  top: 0;
   z-index: 999;
-  opacity: 1; /* Makes it visible initially */
-  animation: slideInTop 1s ease-in-out forwards;
-  animation-delay: 0.5s;
+  opacity: 1; /* Keeps it visible initially */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Add smooth transitions */
 }
+
 .HS{
   height: 100vh;
   position: relative;
