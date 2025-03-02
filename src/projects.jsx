@@ -239,6 +239,9 @@ export default function Projects() {
                 <p className='Desc'>As a front-end developer website responsiveness is key, Using the Device below feel free to explore the provided websites.</p>
             </div>
            
+           <div>
+            <a href="https://github.com/Brianali-codes?tab=repositories" target='_blank'><button className='rounded-xl bg-cyan-500 Desc p-5 hover:bg-cyan-200 transition-transform'>See More Projects.</button></a>
+           </div>
 
             <br /><br />
 
