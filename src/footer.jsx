@@ -14,7 +14,7 @@ export default function Footer() {
 
             <div className="flex flex-row justify-center gap-4">
             <a href="https://www.instagram.com/luh_bryxe" target='_blank'><FontAwesomeIcon icon={faInstagram} size="2x" className='text-white hover:text-cyan-400 hover:cursor-pointer' /></a>
-            <a href="https://github.com/gamerfunky78" target='_blank'><FontAwesomeIcon icon={faGithub} size="2x" className='text-white hover:text-cyan-400 hover:cursor-pointer'/></a>
+            <a href="https://github.com/brianali-codes" target='_blank'><FontAwesomeIcon icon={faGithub} size="2x" className='text-white hover:text-cyan-400 hover:cursor-pointer'/></a>
             <FontAwesomeIcon icon={faEnvelope} size="2x" className='text-white hover:text-cyan-400 hover:cursor-pointer'/>
         
             </div>
