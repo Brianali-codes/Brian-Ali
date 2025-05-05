@@ -6,7 +6,7 @@ import MS from './assets/MS.webp'
 import { motion } from 'framer-motion'
 import QTC from './assets/QUICK.webp'
 import bgz from './assets/BGZAP.webp'
-import OT from './assets/OT.webp'
+import RM from './assets/RM.png'
 import { useState } from 'react'
 import PhoneCarousel from './components/phoneCarousel'
 import S1 from './assets/shioriA.jpeg'
@@ -80,6 +80,27 @@ export default function Projects() {
                             <p className='Desc2'>I worked as the Front-end Developer For the Quick-Tech College Website. </p>
                             <br />
                             <a href="https://quicktechcollege.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
+                        </div>
+                    </div>
+
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.5, y:50 }} // Starting position
+                    whileInView={{ opacity: 1,scale: 1, y: 0 }} // Ending position when in view
+                    transition={{ duration: 1 }} // Transition duration
+                    viewport={{ once: true }} // Animation happens only once when it comes into view
+                >
+                    <div class="project">
+
+                        <img src={RM} alt="Project Image" />
+
+                        <div class="project-info flex flex-col">
+                            <p className='text-center Desc2'>Remaya</p>
+                            <br />
+                            <p className='Desc2'>This is a website that allows you toget the latest anime news from Crunchyroll. </p>
+                            <br />
+                            <a href="https://remaya.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
 
@@ -214,26 +235,7 @@ export default function Projects() {
 
                 </motion.div>
 
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.5, y:50 }} // Starting position
-                    whileInView={{ opacity: 1,scale: 1, y: 0 }} // Ending position when in view
-                    transition={{ duration: 1 }} // Transition duration
-                    viewport={{ once: true }} // Animation happens only once when it comes into view
-                >
-                    <div class="project">
-
-                        <img src={OT} alt="Project Image" />
-
-                        <div class="project-info flex flex-col">
-                            <p className='text-center Desc2'>OtakuPulseNews</p>
-                            <br />
-                            <p className='Desc2'>This is a website that allows you toget the latest anime news from Crunchyroll. </p>
-                            <br />
-                            <a href="https://otakupulsenews.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
-                        </div>
-                    </div>
-
-                </motion.div>
+               
 
 
 
