@@ -8,10 +8,22 @@ import QTC from './assets/QUICK.webp'
 import bgz from './assets/BGZAP.webp'
 import OT from './assets/OT.webp'
 import { useState } from 'react'
-
+import PhoneCarousel from './components/phoneCarousel'
+import S1 from './assets/Shiori1.jpeg'
+import S2 from './assets/Shiori2.jpeg'
+import S3 from './assets/Shiori3.jpeg'
+import S4 from './assets/Shiori4.jpeg'
+import S5 from './assets/Shiori5.jpeg'
+import F1 from './assets/Frapp1.jpeg'
+import F2 from './assets/Frapp2.jpeg'
+import F3 from './assets/Frapp3.jpeg'
+import F4 from './assets/Frapp4.jpeg'
+import F5 from './assets/Frapp5.jpeg'
 
 export default function Projects() {
 
+    const shioriImages = [S1,S2,S3,S4,S5];
+    const FrappImages = [F1,F2,F3,F4,F5];
 
     const [url, setUrl] = useState('https://quicktechcollege.netlify.app')
     const [lineColor, setLineColor] = useState('CyanPulse')
@@ -272,6 +284,21 @@ export default function Projects() {
             
             <br />
             <br />
+            <div className='h-5'></div>
+            <p className='text-center Desc p-5'>Having experience in react.js also pushed me to make some mobile applications such as Frapp and Shiori, these are just some of my personal projects that helped me expand my knowledge as a frontend developer to other fields making me flexible.</p>
+            <div className='mobile-proj'>
+                <PhoneCarousel
+                    title="Shiori Wallpaper App."
+                    images={shioriImages}
+                    viewOnGithubUrl="https://github.com/brianali-codes/shiori"
+                />
+
+                <PhoneCarousel
+                    title="Frapp Mobile App."
+                    images={FrappImages}
+                    viewOnGithubUrl="https://github.com/brianali-codes/Frapp"
+                />
+            </div>  
 
         </motion.div>
     )
