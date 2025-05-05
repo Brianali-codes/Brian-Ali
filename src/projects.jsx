@@ -284,8 +284,10 @@ export default function Projects() {
             
             <br />
             <br />
+            
             <div className='h-5'></div>
             <p className='text-center Desc p-5'>Having experience in react.js also pushed me to make some mobile applications such as Frapp and Shiori, these are just some of my personal projects that helped me expand my knowledge as a frontend developer to other fields making me flexible.</p>
+            
             <div className='mobile-proj'>
                 <PhoneCarousel
                     title="Shiori Wallpaper App."
