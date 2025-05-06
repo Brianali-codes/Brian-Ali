@@ -26,8 +26,7 @@ export default function Projects() {
     const FrappImages = [F1,F2,F3,F4,F5];
 
     const [url, setUrl] = useState('https://quicktechcollege.netlify.app')
-    const [lineColor, setLineColor] = useState('CyanPulse')
-
+   
 
     return (
         <motion.div
@@ -77,7 +76,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Quick Tech College</p>
                             <br />
-                            <p className='Desc2'>I worked as the Front-end Developer For the Quick-Tech College Website. </p>
+                            <p className='Desc2'>Quick tech computer college website.</p>
                             <br />
                             <a href="https://quicktechcollege.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -98,7 +97,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Remaya</p>
                             <br />
-                            <p className='Desc2'>This is a website that allows you toget the latest anime news from Crunchyroll. </p>
+                            <p className='Desc2'>A charity website made for the remaya NGO . </p>
                             <br />
                             <a href="https://remaya.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -120,7 +119,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Frapp</p>
                             <br />
-                            <p className='Desc2'>As a video game enthusiast i keep my eye on new video game giveaways, this website uses an API that does exactly that.</p>
+                            <p className='Desc2'>As a video game giveaways Tracker.</p>
                             <br />
                             <a href="https://frapp.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -142,7 +141,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Fresco Wallpapers</p>
                             <br />
-                            <p className='Desc2'>This is a wallpaper APP, it uses a Wallpaper Fetching API for the content it delivers, the content is mainly anime related.</p>
+                            <p className='Desc2'>A High quality wallpaper website.</p>
                             <br />
                             <a href="https://frescowallpapers.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -164,7 +163,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>IG3s</p>
                             <br />
-                            <p className='Desc2'>This is a website that allows you to download mp4 files from instagram and save them locally, it also uses an API. </p>
+                            <p className='Desc2'>This is an IG video download website.</p>
                             <br />
                             <a href="https://ig3s.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -185,7 +184,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>CookHaven</p>
                             <br />
-                            <p className='Desc2'>This is A recipe web-app, Searches For recipes and results are rendered dynamically using the power of React.js.</p>
+                            <p className='Desc2'>This is A recipe web-app for recipe fetching.</p>
                             <br />
                             <a href="https://cookhaven.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -206,7 +205,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Memesplat</p>
                             <br />
-                            <p className='Desc2'>This is a website that allows you to Generate Memes From Open source APis. </p>
+                            <p className='Desc2'>This is a Meme generator and meme template site.</p>
                             <br />
                             <a href="https://memesplat.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -227,7 +226,7 @@ export default function Projects() {
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>BGZap</p>
                             <br />
-                            <p className='Desc2'>This is a website that allows you to Remove backgrounds From images . </p>
+                            <p className='Desc2'>This is a Background remover website. </p>
                             <br />
                             <a href="https://bgzap.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
@@ -243,8 +242,7 @@ export default function Projects() {
 
             </div>
 
-            <br />
-            <br />
+            <div className='h-5'></div>
             <div>
                 
             </div>

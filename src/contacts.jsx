@@ -87,7 +87,7 @@ export default function Contacts() {
                     />
                     <button
                         type="submit"
-                        className="h-10 w-fit border-solid border-2 border-black rounded-xl hover:bg-slate-400 p-2"
+                        className="h-10 w-fit border-solid border-2 border-black rounded-xl hover:bg-slate-400 p-2 send"
                     >
                         Send
                     </button>

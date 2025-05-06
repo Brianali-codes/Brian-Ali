@@ -380,6 +380,9 @@ body {
     text-align: center;
     justify-content: center;
   }
+  .send{
+    width: 100%;
+  }
   .mobile-proj{
     display: flex;
     flex-direction: column;
