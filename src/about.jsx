@@ -11,11 +11,11 @@ export default function About() {
             transition={{ duration: 1 }} // Transition duration
             viewport={{ once: true }} // Animation happens only once when it comes into view
         >
-            <br /><br />
+             <div className='h-5'></div><br />
             <p className="ABT text-cyan-400 Desc">About Me</p>
             
-            <br />
-            <br />
+             <div className='h-5'></div>
+             <div className='h-5'></div>
             <div className="flex flex-row">
                 <motion.div
                     className="HS2"
@@ -38,7 +38,7 @@ export default function About() {
                     </p>
                     </motion.div>
                     
-                    <br />
+                     <div className='h-5'></div>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }} // Starting position
@@ -50,7 +50,7 @@ export default function About() {
                          <p className="text-black dark:text-white">Some of my most used languages include:</p>
                     </motion.div>
                    
-                    <br />
+                     <div className='h-5'></div>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }} // Starting position
@@ -62,7 +62,7 @@ export default function About() {
                     </motion.div>
 
                     
-                    <br />
+                    <div className='h-5'></div>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }} // Starting position
@@ -74,7 +74,7 @@ export default function About() {
                         <p className="text-black dark:text-white">And my Progress:</p>
                     </motion.div>
                     
-                    <br />
+                    <div className='h-5'></div>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }} // Starting position
@@ -87,7 +87,7 @@ export default function About() {
                     </motion.div>
 
                     
-                    <br />
+                    <div className='h-5'></div>
 
 
                     <motion.div
@@ -101,7 +101,7 @@ export default function About() {
                     <p className="text-black dark:text-white">Other Frameworks, Libraries, and tools that I use include:</p>
                     </motion.div>
                     
-                    <br />
+                     <div className='h-5'></div>
 
                     <motion.div
                         initial={{ opacity: 0, y: 20 }} // Starting position
@@ -146,7 +146,7 @@ export default function About() {
                     </div>
 
                     </motion.div>
-                    <br />
+                     <div className='h-5'></div>
                     <motion.div
                         initial={{ opacity: 0, y: 50 }} // Starting position
                         whileInView={{ opacity: 1, y: 0 }} // Ending position when in view
@@ -162,9 +162,12 @@ export default function About() {
                         >
                             Iam also Consistent as i aspire to make better applications here are my stats:
                         </motion.p>
-                        <br />
+                         <div className='h-5'></div>
                         <img src="https://github-readme-stats.vercel.app/api?username=Brianali-codes&theme=merko&show_icons=true&hide_border=true&count_private=true" alt="" />
                     </motion.div>
+                    <div className='h-5'></div>
+                    <p className='Desc text-lg font-bold text-start'>Work Experience.</p>
+                    <div className='h-5'></div>
                     <motion.div 
                         className="bg-transparent flex flex-col justify-center items-center"
                         initial={{ opacity: 0, y: 10 }} // Starting position
@@ -172,15 +175,15 @@ export default function About() {
                         transition={{ duration: 0.9 }} // Transition duration
                         viewport={{ once: true}} // Animation happens only once when it comes into view
                     >
-                        <br />
-
+                      
+                        
                         <Experience/>
 
-                        <br />
+
 
                         <p className='text-black dark:text-white text-center'>My Hobbies are <span className='text-cyan-400'>Casual Gaming, Watching Movies and VideoGame Hunting</span>.</p>
                     </motion.div>
-                    <br />
+                    <div className='h-5'></div>
                 </motion.div>
             </div>
         </motion.div>

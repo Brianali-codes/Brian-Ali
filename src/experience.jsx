@@ -46,7 +46,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="p-5 font-sans dark:bg-black">
+    <div className="p-1 Desc dark:bg-black">
       {experiences.map((exp, index) => (
         <ExperienceItem key={index} {...exp} />
       ))}

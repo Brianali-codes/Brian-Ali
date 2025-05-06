@@ -46,7 +46,7 @@ export default function Projects() {
                 <p className="ABT text-cyan-400 Desc">My Projects.</p>
             </motion.p>
 
-            <br /><br />
+              <div className='h-5'></div>  <div className='h-5'></div>
 
             <motion.div
                 initial={{ opacity: 0, y: 50 }} // Starting position
@@ -58,7 +58,7 @@ export default function Projects() {
                 <p className='Desc text-black dark:text-white'>Since 2023 i have been perfecting my skills and making user friendly applications that are interactive using my respective tech stack Some of the projects include:</p>
             </motion.div>
 
-            <br /><br />
+              <div className='h-5'></div>
 
             <div className="Project-container">
 
@@ -75,9 +75,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Quick Tech College</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>Quick tech computer college website.</p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://quicktechcollege.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -96,9 +96,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Remaya</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>A charity website made for the remaya NGO . </p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://remaya.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -118,9 +118,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Frapp</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>As a video game giveaways Tracker.</p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://frapp.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -140,9 +140,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Fresco Wallpapers</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>A High quality wallpaper website.</p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://frescowallpapers.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -162,9 +162,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>IG3s</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>This is an IG video download website.</p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://ig3s.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -183,9 +183,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>CookHaven</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>This is A recipe web-app for recipe fetching.</p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://cookhaven.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -204,9 +204,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>Memesplat</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>This is a Meme generator and meme template site.</p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://memesplat.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -225,9 +225,9 @@ export default function Projects() {
 
                         <div class="project-info flex flex-col">
                             <p className='text-center Desc2'>BGZap</p>
-                            <br />
+                              <div className='h-5'></div>
                             <p className='Desc2'>This is a Background remover website. </p>
-                            <br />
+                              <div className='h-5'></div>
                             <a href="https://bgzap.netlify.app/" target='_blank'><p className='GO'>Go to website</p></a>
                         </div>
                     </div>
@@ -255,7 +255,7 @@ export default function Projects() {
             <a href="https://github.com/Brianali-codes?tab=repositories" target='_blank'><button className='rounded-xl bg-cyan-500 Desc p-5 hover:bg-cyan-200 transition-transform'>See More Projects.</button></a>
            </div>
 
-            <br /><br />
+              <div className='h-5'></div>  <div className='h-5'></div>
 
             <div className="Phone-body">
                 <div className="phone-frame">
@@ -282,8 +282,8 @@ export default function Projects() {
             </div>
 
             
-            <br />
-            <br />
+              <div className='h-5'></div>
+              <div className='h-5'></div>
             
             <div className='h-5'></div>
             <p className='text-center Desc p-5'>Having experience in react.js also pushed me to make some mobile applications such as Frapp and Shiori, these are just some of my personal projects that helped me expand my knowledge as a frontend developer to other fields making me flexible.</p>
