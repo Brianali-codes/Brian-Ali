@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-
+import Button2 from "./components/button2"
 
 export default function Progress(){
     return(<>
@@ -10,7 +10,7 @@ export default function Progress(){
                 transition={{ duration: 1 }} // Transition duration
                 viewport={{ once: true }} // Animation happens only once when it comes into view
             >
-                    <p className='Desc text-black dark:text-white' >For More Projects Check out my <a href="https://github.com/brianali-codes" target='_blank'><span className='text-cyan-400'>Github</span></a>.</p>
+                    <p className='Desc text-black dark:text-white flex flex-col justify-center items-center gap-4' >For More Projects Check out my <a href="https://github.com/brianali-codes" target='_blank'><Button2/></a></p>
         </motion.div>
         <br />
     </>

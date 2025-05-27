@@ -46,7 +46,8 @@ export default function Projects() {
                 <p className="ABT text-cyan-400 Desc">My Projects.</p>
             </motion.p>
 
-              <div className='h-5'></div>  <div className='h-5'></div>
+              <div className='h-5'></div>  
+              <div className='h-5'></div>
 
             <motion.div
                 initial={{ opacity: 0, y: 50 }} // Starting position
@@ -286,7 +287,7 @@ export default function Projects() {
               <div className='h-5'></div>
             
             <div className='h-5'></div>
-            <p className='text-center Desc p-5'>Having experience in react.js also pushed me to make some mobile applications such as Frapp and Shiori, these are just some of my personal projects that helped me expand my knowledge as a frontend developer to other fields making me flexible.</p>
+            <p className='text-center Desc p-5 text-black dark:text-white '>Having experience in react.js also pushed me to make some mobile applications such as Frapp and Shiori, these are just some of my personal projects that helped me expand my knowledge as a frontend developer to other fields making me flexible.</p>
             
             <div className='mobile-proj'>
                 <PhoneCarousel
