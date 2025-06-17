@@ -147,7 +147,7 @@ export default function Herosection() {
 
 
             </div>
-            <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2">
+            <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2" id="ScrollIndicator" >
                 <a href="#ABOUT">
                     <ScrollDownIndicator />
                 </a>

@@ -380,6 +380,9 @@ body {
     text-align: center;
     justify-content: center;
   }
+  #ScrollIndicator{
+    display: none;
+  }
   .send{
     width: 100%;
   }
